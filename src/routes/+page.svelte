@@ -2,14 +2,17 @@
 	import '@fontsource/barlow-semi-condensed/600.css';
 	import Element from '$lib/components/Element.svelte';
 	import triangle from '$lib/svg/bg-triangle.svg';
+	import rock from '$lib/svg/icon-rock.svg';
+	import paper from '$lib/svg/icon-paper.svg';
+	import scissors from '$lib/svg/icon-scissors.svg';
 	import Header from '$lib/components/Header.svelte';
 	import Rules from '$lib/components/Rules.svelte';
 	import Results from '$lib/components/Results.svelte';
 	import { showResults, computer, player } from '$lib/stores.js';
 	const elementData = [
-		{ id: 0, src: 'src/lib/svg/icon-rock.svg', svgTheme: '#dc2e4e', altText: 'rock' },
-		{ id: 1, src: 'src/lib/svg/icon-paper.svg', svgTheme: '#4865f4', altText: 'paper' },
-		{ id: 2, src: 'src/lib/svg/icon-scissors.svg', svgTheme: ' #ec9e0e', altText: 'scissor' }
+		{ id: 0, src: rock, svgTheme: '#dc2e4e', altText: 'rock' },
+		{ id: 1, src: paper, svgTheme: '#4865f4', altText: 'paper' },
+		{ id: 2, src: scissors, svgTheme: ' #ec9e0e', altText: 'scissor' }
 	];
 	function getRandomn() {
 		return Math.floor(Math.random() * 3);
