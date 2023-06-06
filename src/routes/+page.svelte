@@ -66,5 +66,6 @@
 		font-family: 'Barlow Semi Condensed', sans-serif;
 		background-color: hsl(214, 47%, 23%);
 		color: white;
+		font-display: swap;
 	}
 </style>
