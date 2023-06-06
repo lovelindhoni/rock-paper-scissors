@@ -7,7 +7,7 @@
 	import Results from '$lib/components/Results.svelte';
 	import { showResults, computer, player } from '$lib/stores.js';
 	const elementData = [
-		{ id: 0, src: '../lib/svg/icon-rock.svg', svgTheme: '#dc2e4e', altText: 'rock' },
+		{ id: 0, src: '/src/lib/svg/icon-rock.svg', svgTheme: '#dc2e4e', altText: 'rock' },
 		{ id: 1, src: 'src/lib/svg/icon-paper.svg', svgTheme: '#4865f4', altText: 'paper' },
 		{ id: 2, src: 'src/lib/svg/icon-scissors.svg', svgTheme: ' #ec9e0e', altText: 'scissor' }
 	];
